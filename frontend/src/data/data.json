@@ -1,0 +1,203 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "userid": 3,
+      "loves": [
+        5,
+        3
+      ],
+      "addToCard": [],
+      "type": "Dogs",
+      "price": "40$",
+      "name": "bjjj xxxxxxxxx",
+      "sex": "male",
+      "des": "d",
+      "age": "13 month",
+      "img": "static/media/dog1.ac5aaa631600139f0589.png"
+    },
+    {
+      "id": 2,
+      "userid": 3,
+      "loves": [
+        3
+      ],
+      "addToCard": [],
+      "type": "Rabbit",
+      "price": "20$",
+      "name": "cjjj xxxxxxxxxx",
+      "sex": "female",
+      "age": "1 year",
+      "des": "d",
+      "img": "static/media/rabbit1.e62cfc758abbce06a6e0.png"
+    },
+    {
+      "id": 3,
+      "userid": 3,
+      "loves": [
+        3
+      ],
+      "addToCard": [],
+      "price": "20$",
+      "type": "Egile",
+      "name": "djjj xxxxxxxxxx",
+      "sex": "male",
+      "age": "10 month",
+      "des": "d",
+      "img": "static/media/egile1.f305bf99d4a1c163afda.png"
+    },
+    {
+      "id": 4,
+      "type": "Pigeon",
+      "userid": 3,
+      "loves": [],
+      "addToCard": [],
+      "price": "20$",
+      "des": "d",
+      "name": "ejjj xxxxxxx",
+      "sex": "female",
+      "age": "4 month",
+      "img": "static/media/pigeon1.b131889356cc2e40a3e1.png"
+    },
+    {
+      "id": 5,
+      "loves": [
+        5,
+        6
+      ],
+      "addToCard": [],
+      "type": "Cats",
+      "price": "20$",
+      "userid": 2,
+      "name": "armjjj zxxxxx",
+      "sex": "male",
+      "age": "3 month",
+      "des": "d",
+      "img": "static/media/cat1.1e40c2cf78757032719c.png"
+    },
+    {
+      "id": 7,
+      "loves": [
+        5,
+        6
+      ],
+      "addToCard": [],
+      "type": "Cats",
+      "price": "20$",
+      "userid": 3,
+      "name": "armjjj xxxxxxxxxxx",
+      "sex": "male",
+      "age": "3 month",
+      "des": "d",
+      "img": "static/media/cat1.1e40c2cf78757032719c.png"
+    },
+    {
+      "id": 8,
+      "loves": [],
+      "addToCard": 0,
+      "type": "Cats",
+      "price": "3",
+      "userid": 6,
+      "name": " d",
+      "sex": "Female",
+      "age": "3",
+      "des": "e",
+      "img": [
+        "blob:http://localhost:3000/559b5b84-d474-41b1-a34e-a31318cfe31a"
+      ],
+      "imgs": [
+        "undefined,blob:http://localhost:3000/559b5b84-d474-41b1-a34e-a31318cfe31a"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "name": "hesham",
+      "email": "h@h",
+      "password": "12345",
+      "phone": "0101711769",
+      "city": "cairo",
+      "loves": [],
+      "card": []
+    },
+    {
+      "id": 3,
+      "name": "h",
+      "email": "j@j",
+      "password": "hhhhh",
+      "city": "giza",
+      "phone": "0109971769",
+      "loves": [
+        1,
+        2,
+        3
+      ],
+      "card": []
+    },
+    {
+      "id": 4,
+      "name": "hesham ahmed",
+      "email": "h@a",
+      "password": "12345",
+      "phone": "0478790880",
+      "city": "tanta",
+      "loves": [],
+      "card": []
+    },
+    {
+      "id": 5,
+      "name": "ali",
+      "email": "my@me",
+      "password": "12345",
+      "phone": "759655332",
+      "city": "mahala",
+      "loves": [
+        5,
+        7,
+        1
+      ],
+      "card": []
+    },
+    {
+      "id": 6,
+      "name": "adlii",
+      "email": "ad@adl",
+      "password": "123456",
+      "phone": "0478790880",
+      "city": "tanta",
+      "loves": [
+        5,
+        7
+      ],
+      "card": []
+    }
+  ],
+  "type": [
+    {
+      "name": "Cats",
+      "img": "static/media/cat1.1e40c2cf78757032719c.png"
+    },
+    {
+      "name": "Dogs",
+      "img": "static/media/dog1.ac5aaa631600139f0589.png"
+    },
+    {
+      "name": "Rabbit",
+      "img": "static/media/rabbit1.e62cfc758abbce06a6e0.png"
+    },
+    {
+      "name": "Egile",
+      "img": "static/media/egile1.f305bf99d4a1c163afda.png"
+    },
+    {
+      "name": "Pigeon",
+      "img": "static/media/pigeon1.b131889356cc2e40a3e1.png"
+    },
+    {
+      "name": "Snake",
+      "img": "static/media/snake.f3f5228e8929f7acb4a1.png"
+    }
+  ],
+  "loves": []
+}

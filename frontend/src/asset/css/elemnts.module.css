@@ -1,0 +1,71 @@
+.btn {
+  min-width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  color: var(--primary-color);
+
+  transition: var(--transition);
+}
+.primary {
+  background: var(--secondry-color);
+}
+.primary:hover {
+  background: #30117e;
+}
+.error {
+  background-color: #eb1919c2;
+  min-width: 50px !important;
+}
+.error:hover {
+  background-color: #eb1919f7;
+}
+.normal {
+  background-color: white;
+  color: var(--secondry-color) !important;
+  border: 1px solid var(--secondry-color);
+}
+.input {
+  width: 300px;
+  min-height: 55px;
+  height: auto;
+  margin: 10px;
+  background-color: var(--primary-color);
+  padding: 0px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.input input,
+.input button {
+  height: 55px;
+  border: 0;
+  background: none;
+  outline: none;
+  padding: 10px;
+  margin: 0 !important;
+  box-shadow: none !important;
+  min-width: 0;
+}
+.input input {
+  width: 90%;
+}
+.input button {
+  width: 10% !important;
+  color: var(--secondry-color) !important;
+  padding: 0;
+}
+.input img {
+  width: 100% !important;
+  border-radius: 0 !important;
+}
+@media only screen and (max-width: 768px) {
+  .input {
+    min-width: 250px;
+    width: 90% !important;
+  }
+}

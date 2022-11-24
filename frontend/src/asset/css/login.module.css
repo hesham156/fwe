@@ -1,0 +1,11 @@
+.login {
+}
+.login .login_form {
+  width: 500px;
+  height: 450px;
+}
+
+.login_head {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
